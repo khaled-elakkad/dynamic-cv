@@ -1,0 +1,152 @@
+/* Palette and font */
+$redColor: #b44b58;
+$greyColor: #7b8790;
+$blackColor: #203242;
+$blueColor: #364655;
+$robotoFont: "Roboto", sans-serif;
+/***********************************************/
+
+/* General
+***********/
+html,
+body {
+  width: 100%;
+  font-family: $robotoFont;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/***********************************************/
+
+/* left side
+************/
+.left-side {
+  /* general */
+  background-color: $blueColor;
+  padding-left: 70px;
+  padding-right: 30px;
+  padding-top: 70px;
+
+  h2 {
+    color: $redColor;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 35px;
+  }
+
+  h3,
+  p,
+  li {
+    color: white;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p,
+  li {
+    font-size: 22px;
+    font-weight: lighter;
+  }
+
+  p {
+    line-height: 1.15;
+  }
+
+  /* image container */
+  .img-container {
+    border: solid white 2px;
+    padding: 15px;
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+    position: relative;
+    left: 210px;
+
+    img {
+      width: 283px;
+      height: 283px;
+      border-radius: 50%;
+    }
+  }
+
+  /* seperator */
+  hr {
+    background-color: $redColor;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+/***********************************************/
+
+/* right side
+************/
+.right-side {
+  /* general */
+  padding-left: 40px;
+  padding-right: 0px;
+
+  h2,
+  li {
+    color: $blackColor;
+  }
+
+  h3 {
+    color: $redColor;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  hr {
+    background-color: $blackColor;
+  }
+
+  /* header */
+  header {
+    margin-top: 130px;
+    margin-bottom: 45px;
+
+    h1 {
+      font-size: 50px;
+      color: $redColor;
+      font-weight: lighter;
+      margin-bottom: 0;
+    }
+    p {
+      color: $greyColor;
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: -5px;
+    }
+    address {
+      font-size: 22px;
+      color: $greyColor;
+      line-height: 1.15;
+      b {
+        color: $blackColor;
+      }
+    }
+  }
+  /*details*/
+  .section-content {
+    p,
+    li {
+      font-size: 18px;
+    }
+  }
+
+  .experience-section {
+    h3 {
+      font-size: 18px;
+    }
+  }
+}
+
+/***********************************************/

@@ -1,0 +1,106 @@
+/* Palette and font */
+/***********************************************/
+/* General
+***********/
+html,
+body {
+  width: 100%;
+  font-family: "Roboto", sans-serif; }
+
+h1,
+h2 {
+  text-transform: uppercase; }
+
+/***********************************************/
+/* left side
+************/
+.left-side {
+  /* general */
+  background-color: #364655;
+  padding-left: 70px;
+  padding-right: 30px;
+  padding-top: 70px;
+  /* image container */
+  /* seperator */ }
+  .left-side h2 {
+    color: #b44b58;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 35px; }
+  .left-side h3,
+  .left-side p,
+  .left-side li {
+    color: white; }
+  .left-side h3 {
+    font-size: 24px; }
+  .left-side p,
+  .left-side li {
+    font-size: 22px;
+    font-weight: lighter; }
+  .left-side p {
+    line-height: 1.15; }
+  .left-side .img-container {
+    border: solid white 2px;
+    padding: 15px;
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+    position: relative;
+    left: 210px; }
+    .left-side .img-container img {
+      width: 283px;
+      height: 283px;
+      border-radius: 50%; }
+  .left-side hr {
+    background-color: #b44b58;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
+/***********************************************/
+/* right side
+************/
+.right-side {
+  /* general */
+  padding-left: 40px;
+  padding-right: 0px;
+  /* header */
+  /*details*/ }
+  .right-side h2,
+  .right-side li {
+    color: #203242; }
+  .right-side h3 {
+    color: #b44b58;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold; }
+  .right-side hr {
+    background-color: #203242; }
+  .right-side header {
+    margin-top: 130px;
+    margin-bottom: 45px; }
+    .right-side header h1 {
+      font-size: 50px;
+      color: #b44b58;
+      font-weight: lighter;
+      margin-bottom: 0; }
+    .right-side header p {
+      color: #7b8790;
+      font-size: 24px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-top: -5px; }
+    .right-side header address {
+      font-size: 22px;
+      color: #7b8790;
+      line-height: 1.15; }
+      .right-side header address b {
+        color: #203242; }
+  .right-side .section-content p,
+  .right-side .section-content li {
+    font-size: 18px; }
+  .right-side .experience-section h3 {
+    font-size: 18px; }
+
+/***********************************************/
+
+/*# sourceMappingURL=main.css.map */
