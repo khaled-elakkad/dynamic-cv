@@ -106,6 +106,8 @@ h3, .right-side .experience-section .job-duration {
     color: #364655; }
   .right-side .experience-section .job-duration {
     text-transform: none; }
+  .right-side .experience-section ul {
+    padding-left: 20px; }
 
 /***********************************************/
 

@@ -157,6 +157,9 @@ h3 {
       @extend .company-name, h3;
       text-transform: none;
     }
+    ul {
+      padding-left: 20px;
+    }
   }
 }
 
