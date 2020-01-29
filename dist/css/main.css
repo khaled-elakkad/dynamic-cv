@@ -25,7 +25,7 @@ h3, .right-side .experience-section .job-duration {
   background-color: #364655;
   padding-left: 70px;
   padding-right: 30px;
-  padding-top: 50px;
+  padding-top: 70px;
   height: 1629px;
   /* image container */
   /* seperator */
@@ -44,21 +44,21 @@ h3, .right-side .experience-section .job-duration {
     font-weight: lighter; }
   .left-side .img-container {
     border: solid white 2px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 50%;
-    height: 320px;
-    width: 320px;
+    height: 255px;
+    width: 255px;
     position: relative;
-    left: 55%; }
+    left: 65%; }
     .left-side .img-container img {
-      width: 283px;
-      height: 283px;
+      width: 230px;
+      height: 230px;
       border-radius: 50%; }
   .left-side hr {
     background-color: #b44b58;
     margin-top: 40px;
     margin-bottom: 40px; }
-  .left-side .education-section {
+  .left-side .profile-section {
     margin-top: 45px; }
 
 /***********************************************/
@@ -81,21 +81,23 @@ h3, .right-side .experience-section .job-duration {
   .right-side p {
     text-align: justify; }
   .right-side header {
-    margin-top: 110px;
+    margin-top: 115px;
     margin-bottom: 45px; }
     .right-side header h1 {
-      font-size: 40px;
+      font-size: 30px;
       color: #b44b58;
       font-weight: lighter;
       margin-bottom: 0; }
     .right-side header p {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 700;
-      text-transform: uppercase;
-      margin-top: -5px; }
+      text-transform: uppercase; }
     .right-side header address {
       color: #203242;
-      line-height: 2; }
+      line-height: 2;
+      display: flex; }
+      .right-side header address div:first-child {
+        margin-right: 50px; }
   .right-side .section-content p,
   .right-side .section-content li {
     font-size: 16px; }

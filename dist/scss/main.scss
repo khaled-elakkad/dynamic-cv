@@ -1,3 +1,6 @@
+// cd dist
+// sass --watch scss/main.scss:css/main.css
+
 /* Palette and font */
 $redColor: #b44b58;
 $greyColor: #7b8790;
@@ -37,7 +40,7 @@ h3 {
   background-color: $blueColor;
   padding-left: 70px;
   padding-right: 30px;
-  padding-top: 50px;
+  padding-top: 70px;
   height: 1629px;
 
   h2 {
@@ -62,16 +65,16 @@ h3 {
   /* image container */
   .img-container {
     border: solid white 2px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 50%;
-    height: 320px;
-    width: 320px;
+    height: 255px;
+    width: 255px;
     position: relative;
-    left: 55%;
+    left: 65%;
 
     img {
-      width: 283px;
-      height: 283px;
+      width: 230px;
+      height: 230px;
       border-radius: 50%;
     }
   }
@@ -84,7 +87,7 @@ h3 {
   }
 
   /* education section*/
-  .education-section {
+  .profile-section {
     margin-top: 45px;
   }
 }
@@ -118,24 +121,28 @@ h3 {
 
   /* header */
   header {
-    margin-top: 110px;
+    margin-top: 115px;
     margin-bottom: 45px;
 
     h1 {
-      font-size: 40px;
+      font-size: 30px;
       color: $redColor;
       font-weight: lighter;
       margin-bottom: 0;
     }
     p {
-      font-size: 22px;
+      font-size: 18px;
       font-weight: 700;
       text-transform: uppercase;
-      margin-top: -5px;
     }
     address {
       color: $blackColor;
       line-height: 2;
+      display: flex;
+
+      div:first-child {
+        margin-right: 50px;
+      }
     }
   }
   /*details*/

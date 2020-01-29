@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "sass --watch dist/scss/main.scss:dist/css/main.css",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
