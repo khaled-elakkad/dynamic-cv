@@ -23,10 +23,9 @@ h3, .right-side .experience-section .job-duration {
 .left-side {
   /* general */
   background-color: #364655;
-  padding-left: 70px;
+  padding-left: 60px;
   padding-right: 30px;
   padding-top: 70px;
-  height: 1629px;
   /* image container */
   /* seperator */
   /* education section*/ }
@@ -59,14 +58,21 @@ h3, .right-side .experience-section .job-duration {
     margin-top: 40px;
     margin-bottom: 40px; }
   .left-side .profile-section {
-    margin-top: 45px; }
+    margin-top: 75px; }
+  .left-side .tools-used ul {
+    padding-inline-start: 0px;
+    display: flex; }
+    .left-side .tools-used ul div:first-child {
+      margin-right: 4em; }
+    .left-side .tools-used ul li {
+      list-style-type: none; }
 
 /***********************************************/
 /* right side
 ************/
 .right-side {
   /* general */
-  padding-left: 40px;
+  padding-left: 50px;
   padding-right: 0px;
   /* header */
   /*details*/ }
@@ -74,8 +80,16 @@ h3, .right-side .experience-section .job-duration {
   .right-side li {
     color: #203242; }
   .right-side h3, .right-side .experience-section .job-duration {
-    color: #b44b58;
+    color: #6b0952;
     font-weight: bold; }
+  .right-side h4 {
+    color: #79323b;
+    font-weight: bold;
+    font-size: 18px; }
+  .right-side h5 {
+    color: #b44b58;
+    font-weight: bold;
+    font-size: 16px; }
   .right-side hr {
     background-color: #203242; }
   .right-side p {
@@ -85,7 +99,7 @@ h3, .right-side .experience-section .job-duration {
     margin-bottom: 45px; }
     .right-side header h1 {
       font-size: 30px;
-      color: #b44b58;
+      color: #6b0952;
       font-weight: lighter;
       margin-bottom: 0; }
     .right-side header p {
@@ -98,12 +112,22 @@ h3, .right-side .experience-section .job-duration {
       display: flex; }
       .right-side header address div:first-child {
         margin-right: 50px; }
+  .right-side .skills-summary ul {
+    padding-inline-start: 0px; }
+    .right-side .skills-summary ul li {
+      padding: 5px;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between; }
+      .right-side .skills-summary ul li span:nth-child(2) {
+        font-weight: bold; }
   .right-side .section-content p,
   .right-side .section-content li {
     font-size: 16px; }
   .right-side .experience-section .job-title {
-    text-transform: capitalize; }
-  .right-side .experience-section .company-name, .right-side .experience-section .job-duration {
+    text-transform: capitalize;
+    font-size: 20px; }
+  .right-side .experience-section .company-name {
     color: #364655; }
   .right-side .experience-section .job-duration {
     text-transform: none; }

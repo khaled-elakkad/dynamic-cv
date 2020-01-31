@@ -2,9 +2,12 @@
 // sass --watch scss/main.scss:css/main.css
 
 /* Palette and font */
+// https://coolors.co/b44b58-203242-364655-266dd3-680A51
+
+$mauveColor: #6b0952;
+$darkRedColor: #79323b;
 $redColor: #b44b58;
-$greyColor: #7b8790;
-$blackColor: #203242;
+$darkBlueColor: #203242;
 $blueColor: #364655;
 $robotoFont: "Roboto", sans-serif;
 /***********************************************/
@@ -38,14 +41,13 @@ h3 {
 .left-side {
   /* general */
   background-color: $blueColor;
-  padding-left: 70px;
+  padding-left: 60px;
   padding-right: 30px;
   padding-top: 70px;
-  height: 1629px;
+  // height: 1629px;
 
   h2 {
     color: $redColor;
-
     font-weight: normal;
     margin-bottom: 35px;
   }
@@ -88,7 +90,21 @@ h3 {
 
   /* education section*/
   .profile-section {
-    margin-top: 45px;
+    margin-top: 75px;
+  }
+
+  .tools-used {
+    ul {
+      padding-inline-start: 0px;
+      display: flex;
+      div:first-child {
+        margin-right: 4em;
+      }
+
+      li {
+        list-style-type: none;
+      }
+    }
   }
 }
 
@@ -98,22 +114,34 @@ h3 {
 ************/
 .right-side {
   /* general */
-  padding-left: 40px;
+  padding-left: 50px;
   padding-right: 0px;
 
   h2,
   li {
-    color: $blackColor;
+    color: $darkBlueColor;
   }
 
   h3 {
-    color: $redColor;
+    color: $mauveColor;
     // text-transform: uppercase;
     font-weight: bold;
   }
 
+  h4 {
+    color: $darkRedColor;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  h5 {
+    color: $redColor;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
   hr {
-    background-color: $blackColor;
+    background-color: $darkBlueColor;
   }
   p {
     text-align: justify;
@@ -126,7 +154,7 @@ h3 {
 
     h1 {
       font-size: 30px;
-      color: $redColor;
+      color: $mauveColor;
       font-weight: lighter;
       margin-bottom: 0;
     }
@@ -136,7 +164,7 @@ h3 {
       text-transform: uppercase;
     }
     address {
-      color: $blackColor;
+      color: $darkBlueColor;
       line-height: 2;
       display: flex;
 
@@ -146,6 +174,22 @@ h3 {
     }
   }
   /*details*/
+
+  .skills-summary {
+    ul {
+      padding-inline-start: 0px;
+
+      li {
+        padding: 5px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        span:nth-child(2) {
+          font-weight: bold;
+        }
+      }
+    }
+  }
   .section-content {
     p,
     li {
@@ -156,12 +200,13 @@ h3 {
   .experience-section {
     .job-title {
       text-transform: capitalize;
+      font-size: 20px;
     }
     .company-name {
       color: $blueColor;
     }
     .job-duration {
-      @extend .company-name, h3;
+      @extend h3;
       text-transform: none;
     }
     ul {
