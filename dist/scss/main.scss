@@ -1,6 +1,3 @@
-// cd dist
-// sass --watch scss/main.scss:css/main.css
-
 /* Palette and font */
 // https://coolors.co/b44b58-203242-364655-266dd3-680A51
 
@@ -84,11 +81,11 @@ h3 {
   /* seperator */
   hr {
     background-color: $redColor;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
 
-  /* education section*/
+  /* profile section*/
   .profile-section {
     margin-top: 75px;
   }
@@ -154,7 +151,7 @@ h3 {
 
     h1 {
       font-size: 30px;
-      color: $mauveColor;
+      // color: $mauveColor;
       font-weight: lighter;
       margin-bottom: 0;
     }
@@ -162,6 +159,7 @@ h3 {
       font-size: 18px;
       font-weight: 700;
       text-transform: uppercase;
+      color: $mauveColor;
     }
     address {
       color: $darkBlueColor;
@@ -216,3 +214,31 @@ h3 {
 }
 
 /***********************************************/
+// Print styles
+
+@page {
+  // size: 8.5in 11in;
+  margin: 10cm;
+}
+
+@media print {
+  .right-side {
+    article {
+      page-break-inside: avoid;
+    }
+  }
+
+  .left-side {
+    height: 86.2cm !important;
+    section {
+      page-break-inside: avoid;
+    }
+  }
+
+  // p,
+  // ul {
+  //   orphans: 3;
+  //   widows: 3;
+  //   font-size: 11pt;
+  // }
+}

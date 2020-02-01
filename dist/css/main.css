@@ -28,7 +28,7 @@ h3, .right-side .experience-section .job-duration {
   padding-top: 70px;
   /* image container */
   /* seperator */
-  /* education section*/ }
+  /* profile section*/ }
   .left-side h2 {
     color: #b44b58;
     font-weight: normal;
@@ -55,8 +55,8 @@ h3, .right-side .experience-section .job-duration {
       border-radius: 50%; }
   .left-side hr {
     background-color: #b44b58;
-    margin-top: 40px;
-    margin-bottom: 40px; }
+    margin-top: 70px;
+    margin-bottom: 70px; }
   .left-side .profile-section {
     margin-top: 75px; }
   .left-side .tools-used ul {
@@ -99,13 +99,13 @@ h3, .right-side .experience-section .job-duration {
     margin-bottom: 45px; }
     .right-side header h1 {
       font-size: 30px;
-      color: #6b0952;
       font-weight: lighter;
       margin-bottom: 0; }
     .right-side header p {
       font-size: 18px;
       font-weight: 700;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      color: #6b0952; }
     .right-side header address {
       color: #203242;
       line-height: 2;
@@ -135,5 +135,15 @@ h3, .right-side .experience-section .job-duration {
     padding-left: 20px; }
 
 /***********************************************/
+@page {
+  margin: 10cm; }
+@media print {
+  .right-side article {
+    page-break-inside: avoid; }
+
+  .left-side {
+    height: 86.2cm !important; }
+    .left-side section {
+      page-break-inside: avoid; } }
 
 /*# sourceMappingURL=main.css.map */
